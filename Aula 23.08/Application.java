@@ -14,7 +14,6 @@ public class Application {
 	}
 
 	private static void imprimirPessoa(Pessoa pessoa) {
-		Telefone telefone=pessoa.getTelefone();
 		String nome = pessoa.getNome();
 		int ddd = pessoa.getTelefone().getDdd();
 		int numero = pessoa.getTelefone().getNumero();
