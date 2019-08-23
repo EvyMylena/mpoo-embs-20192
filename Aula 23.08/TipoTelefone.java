@@ -1,7 +1,7 @@
 package meuprojeto;
 
 public enum TipoTelefone {
-	RESIDENCIAL("Residencial"), CELULAR("Celular");
+	RESIDENCIAL("Residencial"), CELULAR("Celular"), COMERCIAL("Comercial");
 	private String descricao;
 	TipoTelefone(String descricao) {
 		this.descricao = descricao; 
